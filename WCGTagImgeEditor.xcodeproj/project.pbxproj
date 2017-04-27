@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0C142D1EB1E1DA008E8A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0C142C1EB1E1DA008E8A15 /* main.m */; };
+		DD0C14301EB1E1DA008E8A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0C142F1EB1E1DA008E8A15 /* AppDelegate.m */; };
+		DD0C14331EB1E1DA008E8A15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0C14321EB1E1DA008E8A15 /* ViewController.m */; };
+		DD0C14361EB1E1DA008E8A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0C14341EB1E1DA008E8A15 /* Main.storyboard */; };
+		DD0C14391EB1E1DA008E8A15 /* WCGTagImgeEditor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD0C14371EB1E1DA008E8A15 /* WCGTagImgeEditor.xcdatamodeld */; };
+		DD0C143B1EB1E1DA008E8A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0C143A1EB1E1DA008E8A15 /* Assets.xcassets */; };
+		DD0C143E1EB1E1DA008E8A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0C143C1EB1E1DA008E8A15 /* LaunchScreen.storyboard */; };
+		DD0C14491EB1E1DB008E8A15 /* WCGTagImgeEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0C14481EB1E1DB008E8A15 /* WCGTagImgeEditorTests.m */; };
+		DD0C14541EB1E1DB008E8A15 /* WCGTagImgeEditorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0C14531EB1E1DB008E8A15 /* WCGTagImgeEditorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD0C14451EB1E1DB008E8A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD0C14201EB1E1DA008E8A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0C14271EB1E1DA008E8A15;
+			remoteInfo = WCGTagImgeEditor;
+		};
+		DD0C14501EB1E1DB008E8A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD0C14201EB1E1DA008E8A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0C14271EB1E1DA008E8A15;
+			remoteInfo = WCGTagImgeEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD0C14281EB1E1DA008E8A15 /* WCGTagImgeEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCGTagImgeEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0C142C1EB1E1DA008E8A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD0C142E1EB1E1DA008E8A15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD0C142F1EB1E1DA008E8A15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD0C14311EB1E1DA008E8A15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD0C14321EB1E1DA008E8A15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD0C14351EB1E1DA008E8A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD0C14381EB1E1DA008E8A15 /* WCGTagImgeEditor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WCGTagImgeEditor.xcdatamodel; sourceTree = "<group>"; };
+		DD0C143A1EB1E1DA008E8A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD0C143D1EB1E1DA008E8A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD0C143F1EB1E1DA008E8A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0C14441EB1E1DB008E8A15 /* WCGTagImgeEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCGTagImgeEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0C14481EB1E1DB008E8A15 /* WCGTagImgeEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCGTagImgeEditorTests.m; sourceTree = "<group>"; };
+		DD0C144A1EB1E1DB008E8A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0C144F1EB1E1DB008E8A15 /* WCGTagImgeEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCGTagImgeEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0C14531EB1E1DB008E8A15 /* WCGTagImgeEditorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCGTagImgeEditorUITests.m; sourceTree = "<group>"; };
+		DD0C14551EB1E1DB008E8A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD0C14251EB1E1DA008E8A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0C14411EB1E1DB008E8A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0C144C1EB1E1DB008E8A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD0C141F1EB1E1DA008E8A15 = {
+			isa = PBXGroup;
+			children = (
+				DD0C142A1EB1E1DA008E8A15 /* WCGTagImgeEditor */,
+				DD0C14471EB1E1DB008E8A15 /* WCGTagImgeEditorTests */,
+				DD0C14521EB1E1DB008E8A15 /* WCGTagImgeEditorUITests */,
+				DD0C14291EB1E1DA008E8A15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD0C14291EB1E1DA008E8A15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD0C14281EB1E1DA008E8A15 /* WCGTagImgeEditor.app */,
+				DD0C14441EB1E1DB008E8A15 /* WCGTagImgeEditorTests.xctest */,
+				DD0C144F1EB1E1DB008E8A15 /* WCGTagImgeEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD0C142A1EB1E1DA008E8A15 /* WCGTagImgeEditor */ = {
+			isa = PBXGroup;
+			children = (
+				DD0C142E1EB1E1DA008E8A15 /* AppDelegate.h */,
+				DD0C142F1EB1E1DA008E8A15 /* AppDelegate.m */,
+				DD0C14311EB1E1DA008E8A15 /* ViewController.h */,
+				DD0C14321EB1E1DA008E8A15 /* ViewController.m */,
+				DD0C14341EB1E1DA008E8A15 /* Main.storyboard */,
+				DD0C143A1EB1E1DA008E8A15 /* Assets.xcassets */,
+				DD0C143C1EB1E1DA008E8A15 /* LaunchScreen.storyboard */,
+				DD0C143F1EB1E1DA008E8A15 /* Info.plist */,
+				DD0C14371EB1E1DA008E8A15 /* WCGTagImgeEditor.xcdatamodeld */,
+				DD0C142B1EB1E1DA008E8A15 /* Supporting Files */,
+			);
+			path = WCGTagImgeEditor;
+			sourceTree = "<group>";
+		};
+		DD0C142B1EB1E1DA008E8A15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD0C142C1EB1E1DA008E8A15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD0C14471EB1E1DB008E8A15 /* WCGTagImgeEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD0C14481EB1E1DB008E8A15 /* WCGTagImgeEditorTests.m */,
+				DD0C144A1EB1E1DB008E8A15 /* Info.plist */,
+			);
+			path = WCGTagImgeEditorTests;
+			sourceTree = "<group>";
+		};
+		DD0C14521EB1E1DB008E8A15 /* WCGTagImgeEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD0C14531EB1E1DB008E8A15 /* WCGTagImgeEditorUITests.m */,
+				DD0C14551EB1E1DB008E8A15 /* Info.plist */,
+			);
+			path = WCGTagImgeEditorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD0C14271EB1E1DA008E8A15 /* WCGTagImgeEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0C14581EB1E1DB008E8A15 /* Build configuration list for PBXNativeTarget "WCGTagImgeEditor" */;
+			buildPhases = (
+				DD0C14241EB1E1DA008E8A15 /* Sources */,
+				DD0C14251EB1E1DA008E8A15 /* Frameworks */,
+				DD0C14261EB1E1DA008E8A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCGTagImgeEditor;
+			productName = WCGTagImgeEditor;
+			productReference = DD0C14281EB1E1DA008E8A15 /* WCGTagImgeEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD0C14431EB1E1DB008E8A15 /* WCGTagImgeEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0C145B1EB1E1DB008E8A15 /* Build configuration list for PBXNativeTarget "WCGTagImgeEditorTests" */;
+			buildPhases = (
+				DD0C14401EB1E1DB008E8A15 /* Sources */,
+				DD0C14411EB1E1DB008E8A15 /* Frameworks */,
+				DD0C14421EB1E1DB008E8A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0C14461EB1E1DB008E8A15 /* PBXTargetDependency */,
+			);
+			name = WCGTagImgeEditorTests;
+			productName = WCGTagImgeEditorTests;
+			productReference = DD0C14441EB1E1DB008E8A15 /* WCGTagImgeEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD0C144E1EB1E1DB008E8A15 /* WCGTagImgeEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0C145E1EB1E1DB008E8A15 /* Build configuration list for PBXNativeTarget "WCGTagImgeEditorUITests" */;
+			buildPhases = (
+				DD0C144B1EB1E1DB008E8A15 /* Sources */,
+				DD0C144C1EB1E1DB008E8A15 /* Frameworks */,
+				DD0C144D1EB1E1DB008E8A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0C14511EB1E1DB008E8A15 /* PBXTargetDependency */,
+			);
+			name = WCGTagImgeEditorUITests;
+			productName = WCGTagImgeEditorUITests;
+			productReference = DD0C144F1EB1E1DB008E8A15 /* WCGTagImgeEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0C14201EB1E1DA008E8A15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "吴朝刚";
+				TargetAttributes = {
+					DD0C14271EB1E1DA008E8A15 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2PQZ63LPW6;
+						ProvisioningStyle = Automatic;
+					};
+					DD0C14431EB1E1DB008E8A15 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2PQZ63LPW6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD0C14271EB1E1DA008E8A15;
+					};
+					DD0C144E1EB1E1DB008E8A15 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2PQZ63LPW6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD0C14271EB1E1DA008E8A15;
+					};
+				};
+			};
+			buildConfigurationList = DD0C14231EB1E1DA008E8A15 /* Build configuration list for PBXProject "WCGTagImgeEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD0C141F1EB1E1DA008E8A15;
+			productRefGroup = DD0C14291EB1E1DA008E8A15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD0C14271EB1E1DA008E8A15 /* WCGTagImgeEditor */,
+				DD0C14431EB1E1DB008E8A15 /* WCGTagImgeEditorTests */,
+				DD0C144E1EB1E1DB008E8A15 /* WCGTagImgeEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD0C14261EB1E1DA008E8A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0C143E1EB1E1DA008E8A15 /* LaunchScreen.storyboard in Resources */,
+				DD0C143B1EB1E1DA008E8A15 /* Assets.xcassets in Resources */,
+				DD0C14361EB1E1DA008E8A15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0C14421EB1E1DB008E8A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0C144D1EB1E1DB008E8A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD0C14241EB1E1DA008E8A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0C14331EB1E1DA008E8A15 /* ViewController.m in Sources */,
+				DD0C14301EB1E1DA008E8A15 /* AppDelegate.m in Sources */,
+				DD0C142D1EB1E1DA008E8A15 /* main.m in Sources */,
+				DD0C14391EB1E1DA008E8A15 /* WCGTagImgeEditor.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0C14401EB1E1DB008E8A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0C14491EB1E1DB008E8A15 /* WCGTagImgeEditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0C144B1EB1E1DB008E8A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0C14541EB1E1DB008E8A15 /* WCGTagImgeEditorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD0C14461EB1E1DB008E8A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD0C14271EB1E1DA008E8A15 /* WCGTagImgeEditor */;
+			targetProxy = DD0C14451EB1E1DB008E8A15 /* PBXContainerItemProxy */;
+		};
+		DD0C14511EB1E1DB008E8A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD0C14271EB1E1DA008E8A15 /* WCGTagImgeEditor */;
+			targetProxy = DD0C14501EB1E1DB008E8A15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD0C14341EB1E1DA008E8A15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0C14351EB1E1DA008E8A15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD0C143C1EB1E1DA008E8A15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0C143D1EB1E1DA008E8A15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD0C14561EB1E1DB008E8A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD0C14571EB1E1DB008E8A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD0C14591EB1E1DB008E8A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PQZ63LPW6;
+				INFOPLIST_FILE = WCGTagImgeEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wcg.com.WCGTagImgeEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD0C145A1EB1E1DB008E8A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PQZ63LPW6;
+				INFOPLIST_FILE = WCGTagImgeEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wcg.com.WCGTagImgeEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD0C145C1EB1E1DB008E8A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2PQZ63LPW6;
+				INFOPLIST_FILE = WCGTagImgeEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wcg.com.WCGTagImgeEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCGTagImgeEditor.app/WCGTagImgeEditor";
+			};
+			name = Debug;
+		};
+		DD0C145D1EB1E1DB008E8A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2PQZ63LPW6;
+				INFOPLIST_FILE = WCGTagImgeEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wcg.com.WCGTagImgeEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCGTagImgeEditor.app/WCGTagImgeEditor";
+			};
+			name = Release;
+		};
+		DD0C145F1EB1E1DB008E8A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2PQZ63LPW6;
+				INFOPLIST_FILE = WCGTagImgeEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wcg.com.WCGTagImgeEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WCGTagImgeEditor;
+			};
+			name = Debug;
+		};
+		DD0C14601EB1E1DB008E8A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2PQZ63LPW6;
+				INFOPLIST_FILE = WCGTagImgeEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wcg.com.WCGTagImgeEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WCGTagImgeEditor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD0C14231EB1E1DA008E8A15 /* Build configuration list for PBXProject "WCGTagImgeEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0C14561EB1E1DB008E8A15 /* Debug */,
+				DD0C14571EB1E1DB008E8A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0C14581EB1E1DB008E8A15 /* Build configuration list for PBXNativeTarget "WCGTagImgeEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0C14591EB1E1DB008E8A15 /* Debug */,
+				DD0C145A1EB1E1DB008E8A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD0C145B1EB1E1DB008E8A15 /* Build configuration list for PBXNativeTarget "WCGTagImgeEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0C145C1EB1E1DB008E8A15 /* Debug */,
+				DD0C145D1EB1E1DB008E8A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD0C145E1EB1E1DB008E8A15 /* Build configuration list for PBXNativeTarget "WCGTagImgeEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0C145F1EB1E1DB008E8A15 /* Debug */,
+				DD0C14601EB1E1DB008E8A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD0C14371EB1E1DA008E8A15 /* WCGTagImgeEditor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD0C14381EB1E1DA008E8A15 /* WCGTagImgeEditor.xcdatamodel */,
+			);
+			currentVersion = DD0C14381EB1E1DA008E8A15 /* WCGTagImgeEditor.xcdatamodel */;
+			path = WCGTagImgeEditor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD0C14201EB1E1DA008E8A15 /* Project object */;
+}
