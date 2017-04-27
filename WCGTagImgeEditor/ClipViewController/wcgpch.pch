@@ -1,0 +1,34 @@
+//
+//  wcgpch.pch
+//  WCGTagImgeEditor
+//
+//  Created by Wcg on 2017/4/27.
+//  Copyright © 2017年 吴朝刚. All rights reserved.
+//
+
+#ifndef wcgpch_pch
+#define wcgpch_pch
+
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define kScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+#define LDColorRGBA(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+
+#ifndef CGWidth
+#define CGWidth(rect)                   rect.size.width
+#endif
+
+#ifndef CGHeight
+#define CGHeight(rect)                  rect.size.height
+#endif
+
+#ifndef CGOriginX
+#define CGOriginX(rect)                 rect.origin.x
+#endif
+
+#ifndef CGOriginY
+#define CGOriginY(rect)                 rect.origin.y
+#endif
+
+#endif /* wcgpch_pch */
